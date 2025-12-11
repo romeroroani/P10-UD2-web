@@ -12,4 +12,11 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             document.getElementById('redes-placeholder').innerHTML = data;
         });
+
+        // Cargar div footer
+    fetch('componentes/footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+        });
 });

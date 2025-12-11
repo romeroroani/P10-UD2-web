@@ -117,7 +117,7 @@ ul{
     margin
 }
 ol{
-    color: #000000;
+    color:  rgb(2, 000, 2); /*REVISAR REVISAR*/
 }
 
 .contacto button {
@@ -127,7 +127,7 @@ ol{
     font-size: 19px;
     border-radius: 10px;
     cursor: pointer;
-    transition: background 0.2s ease;
+    transition: 0.2s ease;
 }
 
 .contacto button:hover {
@@ -164,7 +164,7 @@ ol{
     margin-bottom: 10px; /* Espacio entre los divs apilados */
     /*background-color: #ff9100;*/
     color: rgb(0, 0, 0);
-    border-radius: 4px;
+    
     text-align: center;
     border-bottom: 2px solid #d16015;
 }
@@ -186,3 +186,18 @@ ol{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+footer {
+
+height: 50px;
+width: 80%;
+background-color:#f4924e;
+
+
+  margin-left: auto;
+margin-right: auto;
+ display: flex;
+  justify-content: center;
+    align-items: center;
+}
+ 

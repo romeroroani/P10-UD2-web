@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Amarna:ital,wght@0,100..700;1,100..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto+Slab:wght@100..900&display=swap');
 
 
+h1.header{
+    text-align: center;
+    color: aliceblue;
+    background-image: url(../img/header.jpg);
+    padding: 30px;
+    margin: 0px;
+}
 
 body {
     margin: 0;
@@ -16,7 +23,6 @@ nav {
     text-align: center;
     letter-spacing: 6px;
     font-weight: 700;
-    border-bottom: 3px solid #b4693a;
 }
 
 nav a {
@@ -31,27 +37,6 @@ nav a:hover {
     color: #fff;
 }
 
-/* Caja de redes */
-.redes {
-    width: 150px;
-    background: #ffd6a4;
-    border: 2px solid #b4693a;
-    padding: 14px;
-    position: fixed;
-    right: 30px;
-    top: 140px;
-    border-radius: 12px;
-    text-align: center;
-}
-
-.icono {
-    width: 48px;
-    height: 48px;
-    background: #c5874d;
-    border-radius: 8px;
-    margin: 8px auto;
-}
-
 /* Contenido */
 .contenedor {
     width: 75%;
@@ -61,17 +46,30 @@ nav a:hover {
 
 section {
     padding: 55px 0;
-    border-bottom: 2px solid #b4693a;
+    border-bottom: 2px solid #d16015;
 }
 
 h2 {
     text-align: center;
 }
+
+/* Caja de redes */
+.redes {
+    width: 150px;
+    background: #f6b77a;
+    border: 2px solid #fc5406;
+    padding: 14px;
+    position: fixed;
+    right: 30px;
+    top: 140px;
+    text-align: center;
+    margin-top: 60px;
+}
+
 .icono {
     width: 50px;
     height: 50px;
     background-color: #c78a50;
-    border-radius: 10px;
     margin: 6px auto;
     display: flex;
     justify-content: center;
@@ -115,6 +113,13 @@ h2 {
     border-radius: 6px;
     background: #ffecd5;
 }
+ul{
+    color: rgb(2, 182, 2);
+    margin
+}
+ol{
+    color: #000000;
+}
 
 .contacto button {
     background: #f4924e;
@@ -128,4 +133,43 @@ h2 {
 
 .contacto button:hover {
     background: #e78341;
+}
+
+/*Columnas*/
+.contenedor-principal{
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.contenedor-columnas {
+    display: grid;
+    /* Define dos columnas de igual ancho (1 fracción de espacio disponible cada una) */
+    grid-template-columns: 1fr 1fr;
+    /* Espacio entre las columnas */
+    gap: 20px; 
+    padding: 20px;
+    
+    
+}
+
+.columna {
+    /* Los divs dentro de .columna se apilan automáticamente uno debajo del otro */
+    /* porque su display por defecto es block */
+    padding: 15px;
+}
+
+
+
+.item {
+    padding: 10px;
+    margin-bottom: 10px; /* Espacio entre los divs apilados */
+    background-color: #ff9100;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Eliminar el margen inferior del último item para evitar espacio extra */
+.item:last-child {
+    margin-bottom: 0;
 }

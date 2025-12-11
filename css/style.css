@@ -7,6 +7,10 @@ h1.header{
     background-image: url(../img/header.jpg);
     padding: 30px;
     margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
 }
 
 body {
@@ -200,4 +204,67 @@ margin-right: auto;
   justify-content: center;
     align-items: center;
 }
- 
+.video2{
+    padding-left: 800px;
+    padding-right: 800px;
+    margin-bottom: 30px;
+}   
+.historia1{
+    text-align: center;
+}
+
+.form-container {
+        width: 450px;
+        margin: 90px auto;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        overflow: hidden;
+    }
+
+    .tabs {
+        display: flex;
+        justify-content: space-around;
+        background: #eee;
+        padding: 20px 0;
+    }
+
+    .tabs div {
+        font-size: 24px;
+        color: #7d7d7d;
+        cursor: pointer;
+    }
+
+    .tabs div.active {
+        color: purple;
+    }
+
+    .form-content {
+        padding: 35px;
+    }
+
+    input {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        background: #eb7345; 
+        border: none;
+        border-radius: 6px;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #d8663d;
+    }

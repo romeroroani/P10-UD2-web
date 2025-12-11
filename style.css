@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background: #f6b77a;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #3b2c1f;
+}
+
+/* Navegación */
+nav {
+    background: #f4924e;
+    padding: 22px 0;
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: 700;
+    border-bottom: 3px solid #b4693a;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1b1b1b;
+    margin: 0 22px;
+    font-size: 19px;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Caja de redes */
+.redes {
+    width: 200px;
+    background: #ffd6a4;
+    border: 2px solid #b4693a;
+    padding: 14px;
+    position: fixed;
+    right: 30px;
+    top: 140px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.icono {
+    width: 48px;
+    height: 48px;
+    background: #c5874d;
+    border-radius: 8px;
+    margin: 8px auto;
+}
+
+/* Contenido */
+.contenedor {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+section {
+    padding: 55px 0;
+    border-bottom: 2px solid #b4693a;
+}
+
+h2 {
+    text-align: center;
+}
+.icono {
+    width: 50px;
+    height: 50px;
+    background-color: #c78a50;
+    border-radius: 10px;
+    margin: 6px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.icono img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Formulario de contacto */
+.contacto {
+    background: #ffd6a4;
+    border: 2px solid #b4693a;
+    padding: 28px;
+    border-radius: 14px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #b4693a;
+    border-radius: 6px;
+    background: #ffecd5;
+}
+
+.contacto button {
+    background: #f4924e;
+    border: 2px solid #b4693a;
+    padding: 12px;
+    font-size: 19px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.contacto button:hover {
+    background: #e78341;
+}

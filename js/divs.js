@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Load nav
-    fetch('nav.html')
+    // Cargar div nav
+    fetch('componentes/nav.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('nav-placeholder').innerHTML = data;
         });
 
-    // Load redes
-    fetch('redes.html')
+    // Cargar div redes
+    fetch('componentes/redes.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('redes-placeholder').innerHTML = data;

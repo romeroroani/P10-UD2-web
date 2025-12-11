@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarna:ital,wght@0,100..700;1,100..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+
 body {
     margin: 0;
     background: #f6b77a;
-    font-family: "Trebuchet MS", sans-serif;
+    font-family:'Amarna', sans-serif;
     color: #3b2c1f;
 }
 
@@ -29,7 +33,7 @@ nav a:hover {
 
 /* Caja de redes */
 .redes {
-    width: 200px;
+    width: 150px;
     background: #ffd6a4;
     border: 2px solid #b4693a;
     padding: 14px;
@@ -79,6 +83,12 @@ h2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.iconos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
 }
 
 /* Formulario de contacto */

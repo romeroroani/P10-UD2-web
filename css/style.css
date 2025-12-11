@@ -46,10 +46,9 @@ nav a:hover {
 
 section {
     padding: 55px 0;
-    border-bottom: 2px solid #d16015;
 }
 
-h2 {
+section h2 {
     text-align: center;
 }
 
@@ -137,7 +136,7 @@ ol{
 
 /*Columnas*/
 .contenedor-principal{
-    max-width: 800px;
+    max-width: 1400px;
     margin: 30px auto;
 }
 
@@ -163,13 +162,27 @@ ol{
 .item {
     padding: 10px;
     margin-bottom: 10px; /* Espacio entre los divs apilados */
-    background-color: #ff9100;
+    /*background-color: #ff9100;*/
     color: rgb(0, 0, 0);
     border-radius: 4px;
     text-align: center;
+    border-bottom: 2px solid #d16015;
 }
 
 /* Eliminar el margen inferior del último item para evitar espacio extra */
 .item:last-child {
     margin-bottom: 0;
+}
+
+.contenedor-historia{
+    margin-left: 50px ;
+}
+.imagenes img {
+    display: block; 
+    width: 70%; 
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }

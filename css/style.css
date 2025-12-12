@@ -265,3 +265,10 @@ margin-right: auto;
     button:hover {
         background: #d8663d;
     }
+
+    .enlace-museo {
+            display: block;
+            text-decoration: none; /* Elimina el subrayado del enlace */
+            color: inherit; /* Mantiene el color del texto original */
+            cursor: pointer; /* Asegura que el cursor cambie a "manita" */
+        }

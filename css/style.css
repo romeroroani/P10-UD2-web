@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amarna:ital,wght@0,100..700;1,100..700&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Roboto+Slab:wght@100..900&display=swap');
 
-
+/* Cabecera */
 h1.header{
     text-align: center;
     color: aliceblue;
@@ -9,10 +9,9 @@ h1.header{
     margin: 0px;
     background-repeat: no-repeat;
     background-position: center;
-
-
 }
 
+/* Cuerpo */
 body {
     margin: 0;
     background: #f6b77a;
@@ -48,13 +47,11 @@ nav a:hover {
     padding-top: 40px;
 }
 
-
-
 section h2 {
     text-align: center;
 }
 
-/* Caja de redes */
+/* Redes */
 .redes {
     width: 150px;
     background: #f6b77a;
@@ -90,7 +87,7 @@ section h2 {
     gap: 8px;
 }
 
-/* Formulario de contacto */
+/* Contacto */
 .contacto {
     background: #ffd6a4;
     border: 2px solid #b4693a;
@@ -114,13 +111,6 @@ section h2 {
     border-radius: 6px;
     background: #ffecd5;
 }
-ul{
-    color: rgb(2, 182, 2);
-    margin
-}
-ol{
-    color:  rgb(2, 000, 2); /*REVISAR REVISAR*/
-}
 
 .contacto button {
     background: #f4924e;
@@ -136,7 +126,7 @@ ol{
     background: #e78341;
 }
 
-/*Columnas*/
+/* Columnas */
 .contenedor-principal{
     max-width: 1400px;
     margin: 30px auto;
@@ -144,131 +134,78 @@ ol{
 
 .contenedor-columnas {
     display: grid;
-    /* Define dos columnas de igual ancho (1 fracción de espacio disponible cada una) */
     grid-template-columns: 1fr 1fr;
-    /* Espacio entre las columnas */
-    gap: 20px; 
+    gap: 20px;
     padding: 20px;
-    
-    
 }
 
 .columna {
-    /* Los divs dentro de .columna se apilan automáticamente uno debajo del otro */
-    /* porque su display por defecto es block */
     padding: 15px;
 }
 
-
-
 .item {
     padding: 10px;
-    margin-bottom: 10px; /* Espacio entre los divs apilados */
-    /*background-color: #ff9100;*/
+    margin-bottom: 10px;
     color: rgb(0, 0, 0);
-    
     text-align: center;
     border-bottom: 2px solid #d16015;
 }
 
-/* Eliminar el margen inferior del último item para evitar espacio extra */
 .item:last-child {
     margin-bottom: 0;
 }
 
+/* Historia */
 .contenedor-historia{
     margin-left: 350px ;
 }
+
 .imagenes img {
-    display: block; 
-    width: 70%; 
-    height: auto; 
+    display: block;
+    width: 70%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-footer {
-
-height: 50px;
-width: 80%;
-background-color:#f4924e;
-
-
-  margin-left: auto;
-margin-right: auto;
- display: flex;
-  justify-content: center;
-    align-items: center;
-}
 .video2{
     padding-left: 800px;
     padding-right: 800px;
     margin-bottom: 30px;
-}   
+}
+
 .historia1{
     text-align: center;
 }
-.form-container {
-        width: 450px;
-        margin: 90px auto;
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        overflow: hidden;
-    }
 
-    .tabs {
-        display: flex;
-        justify-content: space-around;
-        background: #eee;
-        padding: 20px 0;
-    }
+/* Pie de página */
+footer {
+    height: 50px;
+    width: 80%;
+    background-color:#f4924e;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .tabs div {
-        font-size: 24px;
-        color: #7d7d7d;
-        cursor: pointer;
-    }
+/* Enlaces */
+.enlace-museo {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
 
-    .tabs div.active {
-        color: purple;
-    }
+/* Listas */
+ul{
+    color: rgb(2, 182, 2);
+    margin: 0;
+}
 
-    .form-content {
-        padding: 35px;
-    }
-
-    input {
-        width: 100%;
-        padding: 15px;
-        border: 1px solid #ccc;
-        border-radius: 6px;
-        font-size: 16px;
-        margin-bottom: 20px;
-        box-sizing: border-box;
-    }
-
-    button {
-        width: 100%;
-        padding: 15px;
-        background: #eb7345; 
-        border: none;
-        border-radius: 6px;
-        font-size: 18px;
-        color: white;
-        cursor: pointer;
-        transition: 0.3s;
-    }
-
-    button:hover {
-        background: #d8663d;
-    }
-
-    .enlace-museo {
-            display: block;
-            text-decoration: none; /* Elimina el subrayado del enlace */
-            color: inherit; /* Mantiene el color del texto original */
-            cursor: pointer; /* Asegura que el cursor cambie a "manita" */
-        }
+ol{
+    color: black;
+}
